@@ -1,4 +1,4 @@
-# Machina Caelestis Universalis
+# Machina Caelestis Universalis by Americus Amadeus Dodge
 
 Sitio web: [abrir Machina Caelestis Universalis](https://suprauniverso22.github.io/machina-caelestis-universalis/). Repositorio: [suprauniverso22/machina-caelestis-universalis](https://github.com/suprauniverso22/machina-caelestis-universalis). Consulta [DESPLIEGUE.md](DESPLIEGUE.md) para subir el repositorio y activar GitHub Pages.
 
