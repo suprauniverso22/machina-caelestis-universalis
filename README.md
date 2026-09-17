@@ -1,6 +1,6 @@
 # Machina Caelestis Universalis
 
-Copia preparada para publicación web. Consulta [DESPLIEGUE.md](DESPLIEGUE.md) para subir el repositorio y activar GitHub Pages.
+Sitio web: [abrir Machina Caelestis Universalis](https://suprauniverso22.github.io/machina-caelestis-universalis/). Repositorio: [suprauniverso22/machina-caelestis-universalis](https://github.com/suprauniverso22/machina-caelestis-universalis). Consulta [DESPLIEGUE.md](DESPLIEGUE.md) para subir el repositorio y activar GitHub Pages.
 
 Computadora Celestial en español: una rueda SVG con 18 coronas concéntricas y Tonatiuh en el centro, conforme al croquis de `RESOURCES/ESTETICA Y ORGANIZACION/`. Los discos comparten el reloj y pueden girarse con ratón, tacto o teclado. No requiere WebGL ni dibuja engranajes.
 

@@ -13,4 +13,4 @@ Fecha: 16 de septiembre de 2026.
 
 Se conservan las limitaciones funcionales y científicas del proyecto original. No se agregaron calendarios pendientes ni módulos ausentes de la interfaz original. La copia utiliza siete módulos de lecturas; el README anterior indicaba ocho y una prueba buscaba un módulo de cometas que ya no estaba en la interfaz.
 
-El despliegue remoto se comprobará al subir el repositorio y activar Pages. No se ha publicado ni asociado esta carpeta a ninguna cuenta de GitHub.
+Repositorio creado y asociado a https://github.com/suprauniverso22/machina-caelestis-universalis. GitHub Pages activado con GitHub Actions y HTTPS en https://suprauniverso22.github.io/machina-caelestis-universalis/. Cada publicación vuelve a comprobar las pruebas unitarias y la suite completa en Chromium; el resultado del despliegue aparece en la pestaña Actions del repositorio.

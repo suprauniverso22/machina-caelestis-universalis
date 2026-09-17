@@ -2,7 +2,15 @@
 
 Esta copia conserva el código, recursos, documentación y versión Electron del proyecto. No incluye el historial Git anterior, dependencias instaladas, instaladores ni compilaciones anteriores. El sitio web usa React, SVG y cálculos locales en un trabajador; no necesita backend, cuentas ni claves API. Las limitaciones científicas existentes siguen documentadas en ASSUMPTIONS_AND_LIMITATIONS.md.
 
-## Subir a GitHub
+## Repositorio configurado
+
+Repositorio: https://github.com/suprauniverso22/machina-caelestis-universalis.
+
+Sitio: https://suprauniverso22.github.io/machina-caelestis-universalis/.
+
+GitHub Pages ya está activado con GitHub Actions y HTTPS. La rama principal es `main`. Para publicar cambios desde esta carpeta, usa `git add .`, `git commit -m "Descripción del cambio"` y `git push`. Comprueba el resultado en la pestaña Actions.
+
+## Crear otro repositorio desde esta copia
 
 1. Crea un repositorio vacío en GitHub, sin README ni licencia iniciales. El nombre puede ser cualquiera; se recomienda `machina-caelestis-universalis`.
 2. En una terminal abierta en esta carpeta, ejecuta:
