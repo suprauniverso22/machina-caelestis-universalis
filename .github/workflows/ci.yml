@@ -1,0 +1,31 @@
+name: Verificar Machina
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      VITE_BASE_PATH: /__pages-check__/
+      PLAYWRIGHT_BASE_URL: http://127.0.0.1:4173/__pages-check__/
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+        env:
+          ELECTRON_SKIP_BINARY_DOWNLOAD: '1'
+      - run: npm test
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verificacion
+          path: |
+            playwright-report/
+            test-results/
+            docs/observatorio-*.png

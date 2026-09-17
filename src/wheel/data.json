@@ -1,0 +1,209 @@
+{
+  "epoch": 2451545,
+  "rings": [
+    {
+      "id": "tonalpohualli",
+      "name": "Tonalpohualli",
+      "culture": "Mexica",
+      "inner": 86,
+      "outer": 129,
+      "period": 20,
+      "group": "mexica",
+      "description": "Veinte signos de día combinados con trece numerales forman el ciclo ritual de 260 días. El signo avanza cada día; la fase de esta corona se mide desde J2000, sin imponer una correlación nahua única.",
+      "source": "https://www.inah.gob.mx/index.php/foto-del-dia/piedra-del-sol"
+    },
+    {
+      "id": "xiuhpohualli",
+      "name": "Xiuhpohualli",
+      "culture": "Mexica",
+      "inner": 130,
+      "outer": 151,
+      "period": 365,
+      "group": "mexica",
+      "description": "Año civil de 365 días: dieciocho veintenas y cinco nemontemi. Las veintenas son divisiones del año; los veinte signos de día pertenecen al Tonalpohualli.",
+      "source": "https://www.inah.gob.mx/index.php/foto-del-dia/piedra-del-sol"
+    },
+    {
+      "id": "siglo",
+      "name": "Siglo mexica",
+      "culture": "Mexica",
+      "inner": 152,
+      "outer": 170,
+      "period": 18980,
+      "group": "mexica",
+      "description": "Cuenta de 52 años de 365 días. Trece numerales y cuatro portadores de año: Casa, Conejo, Caña y Pedernal. Su origen temporal es comparativo.",
+      "source": "https://www.inah.gob.mx/index.php/foto-del-dia/piedra-del-sol"
+    },
+    {
+      "id": "xiuhmolpilli",
+      "name": "Atadura de los Años",
+      "culture": "Mexica",
+      "inner": 171,
+      "outer": 184,
+      "period": 2998840,
+      "group": "mexica",
+      "description": "Cada atadura representa 52 años de 365 días, equivalentes a 18.980 días. La corona completa abarca 8.216 años de 365 días.",
+      "source": "https://www.inah.gob.mx/index.php/foto-del-dia/piedra-del-sol"
+    },
+    {
+      "id": "zodiac",
+      "name": "Zodiaco helenístico",
+      "culture": "Grecia",
+      "inner": 185,
+      "outer": 214,
+      "period": 365.2422,
+      "phaseOffset": 284.4284,
+      "group": "greek",
+      "description": "Doce signos de 30 grados. Giro uniforme de un año tropical medio desde J2000; la posición real del Sol se consulta en las lecturas astronómicas.",
+      "source": "https://www.iau.org/public/themes/constellations/"
+    },
+    {
+      "id": "houses",
+      "name": "Doce casas",
+      "culture": "Grecia",
+      "inner": 215,
+      "outer": 232,
+      "period": 0.99726968,
+      "group": "greek",
+      "description": "Doce sectores iguales que ilustran las casas astrológicas. Giro de un día sidéreo medio desde J2000. Es un esquema comparativo, no una carta natal calculada a partir del ascendente y la localidad.",
+      "source": "https://www.iau.org/public/themes/constellations/"
+    },
+    {
+      "id": "tzolkin",
+      "name": "Tzolk’in · signos",
+      "culture": "Maya",
+      "inner": 233,
+      "outer": 266,
+      "period": 20,
+      "group": "maya",
+      "description": "Veinte signos y una corona independiente de trece numerales se sincronizan cada 260 días. El índice maya aplica la correlación de Cuenta Larga seleccionada; el ángulo geométrico conserva J2000 como origen.",
+      "source": "https://maya.nmai.si.edu/calendar"
+    },
+    {
+      "id": "tzolkin-number",
+      "name": "Tzolk’in · numerales",
+      "culture": "Maya",
+      "inner": 267,
+      "outer": 283,
+      "period": 13,
+      "group": "maya",
+      "description": "Los numerales 1–13 se combinan con los veinte signos. Ambas coronas recuperan simultáneamente su fase tras 260 días.",
+      "source": "https://maya.nmai.si.edu/calendar"
+    },
+    {
+      "id": "haab",
+      "name": "Haab’",
+      "culture": "Maya",
+      "inner": 284,
+      "outer": 316,
+      "period": 365,
+      "group": "maya",
+      "description": "Dieciocho meses de veinte días y Wayeb’ de cinco, representados con sectores proporcionales. La Rueda Calendárica repite Tzolk’in y Haab’ cada 18.980 días.",
+      "source": "https://maya.nmai.si.edu/calendar"
+    },
+    {
+      "id": "tibetan",
+      "name": "Kālacakra · animales",
+      "culture": "Tíbet",
+      "inner": 317,
+      "outer": 348,
+      "period": 4383.0,
+      "phaseOffset": 1461.0,
+      "group": "tibet",
+      "description": "Doce animales de la astrología elemental tibetana. Su combinación con cinco elementos, repetidos dos años cada uno, forma sesenta años. Giro comparativo de años medios; no sustituye un calendario lunisolar Phugpa o Tsurphu.",
+      "source": "https://studybuddhism.com/en/advanced-studies/history-culture/tibetan-astrology/details-of-tibetan-astrology-3-animal-signs-and-elements",
+      "image": "art/kalachakra.jpeg"
+    },
+    {
+      "id": "elements",
+      "name": "Cinco elementos",
+      "culture": "Tíbet",
+      "inner": 349,
+      "outer": 368,
+      "period": 3652.5,
+      "phaseOffset": 2191.5,
+      "group": "tibet",
+      "description": "Madera, fuego, tierra, hierro y agua; cada elemento ocupa dos años en el ciclo animal-elemento. Este movimiento muestra la estructura de diez años medios desde J2000.",
+      "source": "https://studybuddhism.com/en/advanced-studies/history-culture/tibetan-astrology/details-of-tibetan-astrology-3-animal-signs-and-elements"
+    },
+    {
+      "id": "parkha",
+      "name": "Parkha · ocho trigramas",
+      "culture": "Tíbet",
+      "inner": 369,
+      "outer": 391,
+      "period": 2922.0,
+      "group": "tibet",
+      "description": "Ocho trigramas, spar kha en transliteración Wylie. Sus correspondencias personales requieren reglas de escuela, edad y otros datos. La corona es un recorrido comparativo de ocho años medios.",
+      "source": "https://www.himalayanart.org/search/set.cfm?setID=162"
+    },
+    {
+      "id": "mewa",
+      "name": "Mewa · nueve números",
+      "culture": "Tíbet",
+      "inner": 392,
+      "outer": 411,
+      "period": 3287.25,
+      "group": "tibet",
+      "description": "Sme ba: nueve números relacionados con un cuadrado mágico de suma 15. Se muestra la matriz 4–9–2 / 3–5–7 / 8–1–6 y un recorrido comparativo de nueve años; no una asignación natal.",
+      "source": "https://www.himalayanart.org/search/set.cfm?setID=162"
+    },
+    {
+      "id": "iching",
+      "name": "I Ching · 64 hexagramas",
+      "culture": "China",
+      "inner": 412,
+      "outer": 448,
+      "period": 64,
+      "group": "iching",
+      "description": "Los seis trazos yin o yang forman 64 hexagramas. La rueda recorre un código binario por día desde J2000. Los nombres siguen el orden King Wen. El pronóstico es una invitación interpretativa propia, no una correspondencia diaria histórica.",
+      "source": "https://ctext.org/book-of-changes"
+    },
+    {
+      "id": "dendera",
+      "name": "Dendera · 36 decanos",
+      "culture": "Egipto",
+      "inner": 449,
+      "outer": 482,
+      "period": 365,
+      "group": "egypt",
+      "description": "Corona de 36 divisiones de diez días y cinco días epagómenos. Los decanos son divisiones estelares del calendario egipcio y sus nombres varían según la tradición y la fuente.",
+      "source": "https://collections.louvre.fr/en/ark:/53355/cl010028871",
+      "image": "art/dendera.jpg"
+    },
+    {
+      "id": "yugas",
+      "name": "Ciclo de los Yugas",
+      "culture": "India",
+      "inner": 483,
+      "outer": 507,
+      "period": 1577880000.0,
+      "phaseOffset": 1577725142,
+      "group": "cosmic",
+      "description": "Kṛta/Satya, Tretā, Dvāpara y Kali: 1.728.000, 1.296.000, 864.000 y 432.000 años. Sectores en proporción 4:3:2:1. Offset histórico de Kālacakra: Kali culmina antes de la renovación de 2424 d.C. (D ≈ 154858).",
+      "source": "https://www.wisdomlib.org/hinduism/book/the-bhagavata-purana/d/doc1129008.html"
+    },
+    {
+      "id": "kalpa",
+      "name": "Kalpa",
+      "culture": "India",
+      "inner": 508,
+      "outer": 526,
+      "period": 1577880000000.0,
+      "group": "cosmic",
+      "description": "Mil mahāyugas: 4.320 millones de años, un día de Brahmā en esta convención puránica. El ángulo conserva el período real; la regla logarítmica permite comparar su magnitud.",
+      "source": "https://www.wisdomlib.org/hinduism/book/the-bhagavata-purana/d/doc1129008.html"
+    },
+    {
+      "id": "mahakalpa",
+      "name": "Mahākalpa",
+      "culture": "India",
+      "inner": 527,
+      "outer": 548,
+      "period": 1.1360736e+17,
+      "group": "cosmic",
+      "description": "Se adopta como convención de esta obra la vida de Brahmā: cien años de 360 días y noches, 311,04 billones de años. Mahākalpa tiene otros usos doctrinales. La escala logarítmica compara duraciones y no multiplica la velocidad del reloj.",
+      "source": "https://www.wisdomlib.org/hinduism/book/the-bhagavata-purana/d/doc1129008.html"
+    }
+  ]
+}

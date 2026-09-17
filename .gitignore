@@ -1,0 +1,14 @@
+node_modules/
+dist/
+playwright-report/
+test-results/
+tsconfig.tsbuildinfo
+.env
+*.log
+
+release/
+
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store

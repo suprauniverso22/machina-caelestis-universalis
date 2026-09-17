@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="250" height="320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<g fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5">
+		<path d="m44.45 75.628a19.436 9.8745 0 0 1-19.436 9.8745 19.436 9.8745 0 0 1-19.436-9.8745 19.436 9.8745 0 0 1 19.436-9.8745 19.436 9.8745 0 0 1 19.436 9.8745z"/>
+		<path d="m43.55 72.678c-2.4711 4.0111-9.8462 6.9243-18.552 6.9243-8.6929 0-16.059-2.9043-18.541-6.9059"/>
+		<path d="m25.25 79.628c-1.7531-1.8226-2.7617-3.9572-2.7617-6.2384 0-2.8323 1.5549-5.4387 4.1591-7.5025"/>
+		<path d="m32.25 78.888c-0.9309-1.4182-1.4443-2.9712-1.4443-4.5987 0-2.7072 1.4206-5.208 3.8202-7.2259"/>
+		<path d="m17.25 78.798c-1.4864-1.7151-2.3308-3.6796-2.3308-5.7668 0-2.4304 1.1449-4.6944 3.1152-6.5921"/>
+	</g>
+	<g id="c">
+		<g id="g">
+			<circle id="h" cx="75" cy="70" r="5"/>
+			<use transform="translate(0,72)" xlink:href="#h"/>
+		</g>
+		<use transform="translate(0,144)" xlink:href="#g"/>
+	</g>
+	<g id="b">
+		<use transform="translate(44)" xlink:href="#c"/>
+		<use transform="translate(56)" xlink:href="#c"/>
+	</g>
+	<use transform="translate(88)" xlink:href="#c"/>
+	<use transform="translate(56)" xlink:href="#b"/>
+	<use transform="translate(88)" xlink:href="#b"/>
+	<use transform="translate(112)" xlink:href="#b"/>
+	<g id="a">
+		<g id="f">
+			<path id="d" d="m3 154h44" stroke="#000" stroke-width="6"/>
+			<use transform="translate(50)" xlink:href="#d"/>
+		</g>
+		<use transform="translate(100)" xlink:href="#d"/>
+		<use transform="translate(150)" xlink:href="#f"/>
+	</g>
+	<use transform="translate(0,144)" xlink:href="#a"/>
+	<g id="e">
+		<use transform="translate(0,72)" xlink:href="#a"/>
+		<use transform="translate(0,80)" xlink:href="#a"/>
+	</g>
+	<use transform="translate(0,80)" xlink:href="#e"/>
+	<g font-family="'DejaVu Sans'" font-size="23px" text-anchor="middle">
+		<text x="25" y="54">0</text>
+		<text x="75" y="54">1</text>
+		<text x="125" y="54">2</text>
+		<text x="175" y="54">3</text>
+		<text x="225" y="54">4</text>
+		<text x="25" y="126">5</text>
+		<text x="75" y="126">6</text>
+		<text x="125" y="126">7</text>
+		<text x="225" y="126">9</text>
+		<text x="175" y="126">8</text>
+		<text x="25" y="198">10</text>
+		<text x="75" y="198">11</text>
+		<text x="125" y="198">12</text>
+		<text x="175" y="198">13</text>
+		<text x="225" y="198">14</text>
+		<text x="25" y="270">15</text>
+		<text x="75" y="270">16</text>
+		<text x="125" y="270">17</text>
+		<text x="175" y="270">18</text>
+		<text x="225" y="270">19</text>
+	</g>
+</svg>

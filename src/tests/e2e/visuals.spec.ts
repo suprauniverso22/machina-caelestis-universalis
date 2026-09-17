@@ -1,0 +1,28 @@
+import {test,expect} from '@playwright/test';
+test('fases, hexagramas y cielo visibles e interactivos',async({page,context})=>{
+ const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('./');
+ await expect(page.getByRole('region',{name:'Fases lunares calculadas'})).toBeVisible();
+ await expect(page.locator('.lunar-display>svg')).toBeVisible();
+ await page.getByRole('button',{name:'Planisferio celeste',exact:true}).click();
+ await expect(page.getByRole('heading',{name:'Planisferio celeste · horizonte local'})).toBeVisible();
+ const before=await page.getByTestId('sky-coordinate').textContent();
+ await page.getByRole('button',{name:'Paso siguiente',exact:true}).click();
+ await expect(page.getByTestId('sky-coordinate')).not.toHaveText(before!);
+ await page.screenshot({path:'docs/screenshots/planisferio.png',fullPage:true});
+ await expect(page.getByRole('button',{name:'Símbolos y runas',exact:true})).toHaveCount(0);
+ await page.locator('.module').filter({hasText:'Yìjīng'}).click();
+ await expect(page.locator('.yijing-display')).toBeVisible();
+ const hex=await page.locator('.yijing-display h3').textContent();
+ await page.getByRole('button',{name:'Paso siguiente',exact:true}).click();
+ await expect(page.locator('.yijing-display h3')).not.toHaveText(hex!);
+ await page.getByRole('button',{name:'Paso anterior',exact:true}).click();
+ await expect(page.locator('.yijing-display h3')).toHaveText(hex!);
+ await page.evaluate(async()=>{await navigator.serviceWorker.ready;});
+ await context.setOffline(true);
+ await page.reload();
+ await expect(page.getByRole('button',{name:'Símbolos y runas',exact:true})).toHaveCount(0);
+ await expect(page.getByTestId('celestial-wheel')).toBeVisible();
+ await context.setOffline(false);
+ expect(errors).toEqual([]);
+});

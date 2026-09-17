@@ -1,0 +1,3 @@
+import {useMachine} from '../core/state';
+import {mayaCalendar} from '../modules/calendars';
+export default function MayaDisplay(){const jd=useMachine(s=>s.jd),correlation=useMachine(s=>s.correlation),m=mayaCalendar(jd,correlation);return <section className="maya-date-visual"><span className="mayan" aria-label={`Numeral maya ${m.tzolkinNumber}`}>{String.fromCodePoint(0x1d2e0+m.tzolkinNumber)}</span><strong>{m.tzolkinNumber} {m.tzolkinName}</strong><p>Tzolk’in · {m.haabDay} {m.haabMonth} · Haab’</p><p>Cuenta Larga: {m.longCount}</p><small>Numeral maya tipográfico. El nombre del día está transliterado; no se sustituye su glifo arqueológico por un dibujo inventado.</small></section>;}
